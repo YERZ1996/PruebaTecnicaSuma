@@ -1,0 +1,39 @@
+<p class="aling-center-text">PRUEBA TECNICA SUMA</p>
+<div class="aling-center-text">
+  <div>
+    <form>
+      <p>Agente A Tamaño de la escalera</p>
+      <input [(ngModel)]="agenteA" name="agenteA" (input)="this.GetStartFuntionAgenteA()">
+      <br>
+      <div *ngFor="let linea of escaleraOutputA">
+        {{ linea }} <br>
+      </div>
+      <br>
+      <label *ngIf="this.agenteA <= 0 || this.agenteA >= 100" class="text-color-require">{{textRequire}}</label>
+    </form>
+  </div>
+  <div>
+    <form>
+      <p>Agente B Tamaño de la escalera</p>
+      <input [(ngModel)]="agenteB" name="agenteB" (input)="this.GetStartFuntionAgenteB()">
+      <br>
+      <div *ngFor="let linea of escaleraOutputB">
+        {{ linea }} <br>
+      </div>
+      <br>
+      <label *ngIf="this.agenteB <= 0 || this.agenteB >= 100" class="text-color-require">{{textRequire}}</label>
+    </form>
+  </div>
+  <div>
+    <form>
+      <p>Agente C Tamaño de la escalera</p>
+      <input [(ngModel)]="agenteC" name="agenteC" (input)="this.GetStartFuntionAgenteC()">
+      <br>
+      <div *ngFor="let linea of escaleraOutputC">
+        {{ linea }} <br>
+      </div>
+      <br>
+      <label *ngIf="this.agenteC <= 0 || this.agenteC >= 100" class="text-color-require">{{textRequire}}</label>
+    </form>
+  </div>
+</div>
