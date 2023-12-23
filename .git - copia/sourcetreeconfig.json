@@ -1,0 +1,33 @@
+{
+  "$id": "45",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2023-12-23T00:58:22.8435503-05:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "46",
+      "BaseUrl": "https://github.com",
+      "Identifier": "YERZ1996/PruebaTecnicaSuma",
+      "RemoteName": "origin",
+      "Type": 0,
+      "Username": "YERZ1996",
+      "CloneUrl": null,
+      "ProjectUrl": null,
+      "AccountId": "YERZ1996@github.com",
+      "AvatarUrl": null,
+      "DisplayName": "origin: https://github.com"
+    }
+  ]
+}
